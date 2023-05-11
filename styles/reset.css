@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+body {
+  color: #000;
+  background: #FFF;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+}/*# sourceMappingURL=reset.css.map */

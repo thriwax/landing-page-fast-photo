@@ -1,0 +1,131 @@
+body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  background: url(../images/enroll/bg.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1 1 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.enroll-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 28px;
+  padding-bottom: 17px;
+}
+
+.enroll-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.enroll-form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.e-f-n-s {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.name-input {
+  width: 150px;
+  height: 35px;
+  background: #FFFFFF;
+  border: 1px solid #AC2D9F;
+  border-radius: 10px;
+}
+
+.surname-input {
+  width: 150px;
+  height: 35px;
+  background: #FFFFFF;
+  border: 1px solid #AC2D9F;
+  border-radius: 10px;
+}
+
+.e-f-d-t {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.tel-input {
+  width: 324px;
+  height: 35px;
+  background: #FFFFFF;
+  border: 1px solid #AC2D9F;
+  border-radius: 10px;
+}
+
+.email-input {
+  width: 324px;
+  height: 35px;
+  background: #FFFFFF;
+  border: 1px solid #AC2D9F;
+  border-radius: 10px;
+}
+
+.date-input {
+  width: 150px;
+  height: 35px;
+  background: #FFFFFF;
+  border: 1px solid #AC2D9F;
+  border-radius: 10px;
+}
+
+.time-input {
+  width: 150px;
+  height: 35px;
+  background: #FFFFFF;
+  border: 1px solid #AC2D9F;
+  border-radius: 10px;
+}
+
+.comment-input {
+  width: 324px;
+  height: 76px;
+  background: #FFFFFF;
+  border: 1px solid #AC2D9F;
+  border-radius: 10px;
+}
+
+input::-moz-placeholder {
+  padding-left: 15px;
+}
+
+input::placeholder {
+  padding-left: 15px;
+}
+
+.enroll-button {
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  margin: auto;
+  width: 144px;
+  height: 32px;
+  background: #AC2D9F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}/*# sourceMappingURL=enroll.css.map */

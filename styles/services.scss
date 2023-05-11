@@ -1,0 +1,111 @@
+.uslugi-container {
+    max-width: 1138px;
+    background: #E5BEE1;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.uslugi-title {
+    padding-top: 29px;
+    padding-bottom: 29px;
+    padding-left: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.documents-grid {
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 25px;
+}
+
+.documents-card {
+    width: 338px;
+    height: 230px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.documents-card-image {}
+
+.documents-card-img {
+    width: 176px;
+    height: 205px;
+}
+
+.documents-card-info {
+    height: 163px;
+}
+
+.documents-card-title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.documents-card-border {
+    width: 100px;
+    margin: auto;
+    border: 1px solid #000000;
+}
+
+.documents-card-price {
+    padding-top: 5px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+
+color: #AC2D9F;
+}
+
+.documents-card-desc {
+    padding-left: 14px;
+    padding-right: 5px;
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+}
+.text {
+    max-width: 1064px;
+    margin: auto;
+    padding-bottom: 27px;
+}
+
+.razmer-title {
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+padding-top: 40px;
+padding-bottom: 30px;
+}
+
+.razmer-grid {
+    max-width: 1061px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.razmer-grid-item {
+    width: 162px;
+    height: 242px;
+    border-radius: 5px;
+}

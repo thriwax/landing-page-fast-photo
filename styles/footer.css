@@ -1,0 +1,16 @@
+.footer {
+  background: #515253;
+}
+
+.footer-container {
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
+.footer-desc {
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}/*# sourceMappingURL=footer.css.map */
